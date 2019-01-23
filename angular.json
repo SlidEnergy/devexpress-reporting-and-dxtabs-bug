@@ -25,7 +25,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/devextreme/dist/js/dx.all.js",
+              "node_modules/devextreme/dist/js/localization/dx.messages.ru.js"
+            ]
           },
           "configurations": {
             "production": {

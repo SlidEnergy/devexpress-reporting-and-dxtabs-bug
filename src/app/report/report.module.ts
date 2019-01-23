@@ -1,22 +1,26 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ReportComponent } from './report.component';
+import { ReportComponent } from './report/report.component';
 import { Routes, RouterModule } from '@angular/router';
+import { SharedModule } from '../shared/shared/shared.module';
+import { DxReportViewerModule } from 'devexpress-reporting-angular';
 
 const routes: Routes = [
   {
-    path: '',
+    path: "",
     component: ReportComponent,
   }
 ];
 
 @NgModule({
   imports: [
-    CommonModule,
-    RouterModule.forChild(routes)
+    SharedModule,
+    RouterModule.forChild(routes),
+    DxReportViewerModule
   ],
   exports: [
-    RouterModule
+    RouterModule,
+    ReportComponent
   ],
   declarations: [ReportComponent]
 })

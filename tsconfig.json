@@ -16,6 +16,28 @@
     "lib": [
       "es2017",
       "dom"
+    ],
+    "paths": {
+      "jszip": [
+        "./node_modules/jszip/dist/jszip.min.js"
+      ],
+      "globalize": [
+        "./node_modules/globalize/dist/globalize"
+      ],
+      "globalize/*": [
+        "./node_modules/globalize/dist/globalize/*"
+      ],
+      "cldr": [
+        "./node_modules/cldrjs/dist/cldr"
+      ],
+      "cldr/*": [
+        "./node_modules/cldrjs/dist/cldr/*"
+      ]
+    },
+    "plugins": [
+      {
+        "name": "@angular/language-service"
+      }
     ]
   }
 }
