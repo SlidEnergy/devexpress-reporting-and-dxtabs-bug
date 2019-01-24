@@ -7,8 +7,6 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   styleUrls: [
     "./report.component.css",
     "../../../../node_modules/jquery-ui/themes/base/all.css",
-    "../../../../node_modules/devextreme/dist/css/dx.common.css",
-    "../../../../node_modules/devextreme/dist/css/dx.light.css",
     "../../../../node_modules/@devexpress/analytics-core/dist/css/dx-analytics.common.css",
     "../../../../node_modules/@devexpress/analytics-core/dist/css/dx-analytics.light.css",
     "../../../../node_modules/devexpress-reporting/dist/css/dx-webdocumentviewer.css"
