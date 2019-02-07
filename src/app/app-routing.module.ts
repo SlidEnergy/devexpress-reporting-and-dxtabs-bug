@@ -10,6 +10,10 @@ const routes: Routes = [
     {
         path: "report",
         loadChildren: 'src/app/report/report.module#ReportModule'
+    },
+    {
+        path: "feature",
+        loadChildren: 'src/app/feature/feature.module#FeatureModule'
     }
 ];
 

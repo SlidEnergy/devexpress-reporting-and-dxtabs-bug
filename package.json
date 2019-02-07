@@ -26,6 +26,7 @@
     "devextreme": "^18.2.4",
     "devextreme-angular": "^18.2.4",
     "devextreme-intl": "^18.2.4",
+    "jquery": "^3.3.1",
     "rxjs": "~6.3.3",
     "zone.js": "^0.8.29"
   },
